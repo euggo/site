@@ -12,6 +12,8 @@ Join us for an informative dive into a Go-related topic. Check out the meetup
 link for info on what's coming up next. We've covered issues ranging from error
 handling to how Go relates to the latest advancements in infrastructure.
 
+[Online Presentations](/ln/presentations)
+
 Don't be shy; Even if you're new to the language it's helpful to start hearing
 the nomenclature and reviewing idiomatic code. And, you might make some new
 friends!
