@@ -135,7 +135,7 @@
     <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
 -->
 
-<script src="js/main/footer.js"></script>
+<script src="{{ "js/main/footer.js" | relURL }}"></script>
 
 {{ if .Site.GoogleAnalytics }}
 {{ template "_internal/google_analytics_async.html" . }}
