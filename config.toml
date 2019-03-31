@@ -1,4 +1,120 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "/"
+title = "EUG Go"
 theme = ["custom-cleanwhite", "hugo-theme-cleanwhite"]
+languageCode = "en-US"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+googleAnalytics = ""
+preserveTaxonomyNames = true
+paginate = 5 #frontpage pagination
+hasCJKLanguage = false
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
+
+[outputs]
+home = ["HTML"]
+#home = ["HTML", "RSS", "Algolia"]
+
+[params]
+  header_image = "https://storage.euggo.org/site/img/bg/devs-dark-background.png"
+  SEOTitle = "EUG Go | All Gophers and curious software professionals are welcome to come discuss Go and related topics."
+  description = "Go is a Google-funded language for massively-scalable distributed systems that is statically typed and compiled. It has quickly stabilized and is running head-to-head with C++, Java, C#, etc. (The Computer Language Benchmarks Game - Go (https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html)). However, a larger-than-expected portion of new Gophers is made up of dynamic/interpreted language users who tend to be seeking relief from the cruft in their current languages and/or a more clear future within the horizontally-growing landscape of modern computing. If you're building web apps, designing APIs, thrive on scalability, or you're simply curious about this fun new(ish) language, let's meetup."
+  keyword = "Golang, Go (Programming Language), Software Development, Web Development, Open Source, High Scalability Computing, Eugene, Oregon"
+  slogan = "Eugene's #1 Go Meetup"
+
+  image_404 = "img/404-bg.jpg"
+  title_404 = "This isn't the page you're looking for."
+
+  # leancloud storage for page view counter
+  page_view_conter = false
+  leancloud_app_id = ""
+  leancloud_app_key = ""
+
+  # algolia site search
+  algolia_search = false
+  algolia_appId = ""
+  algolia_indexName = ""
+  algolia_apiKey = ""
+
+  # Sidebar settings
+  sidebar_about_description = "All Gophers and curious software professionals are welcome to come discuss Go and related topics."
+  #sidebar_avatar = "img/avatar.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_avatar = "https://storage.euggo.org/meetup/img/euggo_logo_square.png"# use absolute URL, seeing it's used in both `/` and `/about/`
+
+  #featured_tags = true
+  #featured_condition_size = 1
+
+  # Baidu Analytics
+  #ba_track_id = ""
+
+  disqus_proxy = ""
+  disqus_site = ""
+
+  friends = true
+  bookmarks = true
+  about_me = false
+
+  [params.social]
+  #rss            = true
+  #email          = "youremail@gmail.com"
+  #facebook      = "full profile url in facebook"
+  #googleplus    = "full profile url in googleplus"
+  twitter       = "https://twitter.com/eug_go"
+  #linkedin       = "https://www.linkedin.com/in/yourlinkedinid"
+  #stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
+  #instagram     = "full profile url in instagram"
+  github         = "https://github.com/euggo"
+  #wechat         = "your wechat qr code image"
+  #medium         = "full profile url in medium"
+  #pinterest     = "full profile url in pinterest"
+
+  [[params.friend_link]]
+  title = "Eugene Tech"
+  href =  "https://eugenetech.org"
+  [[params.friend_link]]
+  title = "Elm Eug (Meetup)"
+  href =  "https://www.meetup.com/Elm-Eug"
+  [[params.friend_link]]
+  title = "Eugene Web Devs (Meetup)"
+  href =  "https://www.meetup.com/eugenewebdevs"
+
+  [[params.bookmark_link]]
+  title = "EUG Go (Meetup)"
+  href =  "https://www.meetup.com/EUG-Go"
+  [[params.bookmark_link]]
+  title = "A Tour of Go"
+  href =  "https://tour.golang.org"
+  [[params.bookmark_link]]
+  title = "Go Docs"
+  href =  "https://golang.org/doc"
+  [[params.bookmark_link]]
+  title = "The Go Playground"
+  href =  "https://play.golang.org"
+  [[params.bookmark_link]]
+  title = "The Go Blog"
+  href =  "https://blog.golang.org"
+
+  [[params.addtional_menus]]
+  title =  "ABOUT US"
+  href =  "/top/about_us"
+  [[params.addtional_menus]]
+  title = "BOOK CLUB"
+  href =  "/top/book_club"
+  [[params.addtional_menus]]
+  title = "PRESENTATIONS"
+  href =  "/top/presentations"
+  [[params.addtional_menus]]
+  title = "HACK 'N' CHAT"
+  href =  "/top/hack_n_chat"
+
+#[outputFormats.Algolia]
+#baseName = "algolia"
+#isPlainText = true
+#mediaType = "application/json"
+#notAlternative = true
+
+#[params.algolia]
+#vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+#params = ["categories", "tags"]
