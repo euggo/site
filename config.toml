@@ -18,7 +18,7 @@ home = ["HTML"]
 #home = ["HTML", "RSS", "Algolia"]
 
 [params]
-  #use css.css#header_image = "https://storage.euggo.org/site/img/bg/devs-dark-background.png"
+  header_image = "https://storage.euggo.org/site/img/bg/devs-dark-background.png" ### MUST ALSO EXIST IN CSS
   SEOTitle = "EUG Go | All Gophers and curious software professionals are welcome to come discuss Go and related topics."
   description = "Go is a Google-funded language for massively-scalable distributed systems that is statically typed and compiled. It has quickly stabilized and is running head-to-head with C++, Java, C#, etc. (The Computer Language Benchmarks Game - Go (https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html)). However, a larger-than-expected portion of new Gophers is made up of dynamic/interpreted language users who tend to be seeking relief from the cruft in their current languages and/or a more clear future within the horizontally-growing landscape of modern computing. If you're building web apps, designing APIs, thrive on scalability, or you're simply curious about this fun new(ish) language, let's meetup."
   keyword = "Golang, Go (Programming Language), Software Development, Web Development, Open Source, High Scalability Computing, Eugene, Oregon"
