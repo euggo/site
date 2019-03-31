@@ -1,7 +1,7 @@
 ---
 title: "Presentations"
 date: 2019-03-30T20:44:27-07:00
-draft: true
+draft: false
 ---
 
 ## Presentations

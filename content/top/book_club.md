@@ -1,7 +1,7 @@
 ---
 title: "Book Club"
 date: 2019-03-30T19:29:06-07:00
-draft: true
+draft: false
 ---
 
 ## Book Club (The Go Programming Language)
