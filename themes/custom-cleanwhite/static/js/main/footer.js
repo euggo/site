@@ -21,7 +21,7 @@ if($('#tag_cloud').length !== 0){
 }
 
 //<!--fastClick.js -->
-async("js/fastclick/1.0.6/fastclick.js", function(){
+async("/js/fastclick/1.0.6/fastclick.js", function(){
     var $nav = document.querySelector("nav");
     if($nav) FastClick.attach($nav);
 })
