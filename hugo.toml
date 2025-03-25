@@ -2,6 +2,10 @@ baseurl = "/"
 title = "EUG Go"
 theme = ["custom-cleanwhite", "hugo-theme-cleanwhite"]
 languageCode = "en-US"
+
+[markup.goldmark.renderer]
+unsafe= true
+
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 googleAnalytics = ""

@@ -70,7 +70,7 @@
 		    <!-- Huabing: add wechat QR code link -->
                     {{ with .Site.Params.social.wechat }}
                     <li>
-                        <a target="_blank" href="{{ . | relURL }}">
+                        <a target="_blank" href="{{ . | .RelPermalink }}">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
@@ -136,7 +136,3 @@
 -->
 
 <script src="{{ "js/main/footer.js" | relURL }}"></script>
-
-{{ if .Site.GoogleAnalytics }}
-{{ template "_internal/google_analytics_async.html" . }}
-{{ end }}
